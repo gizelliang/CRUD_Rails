@@ -26,7 +26,7 @@ gem "stimulus-rails"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
-gem 'better_errors', '~> 2.9', '>= 2.9.1'
+
 #Bulma CSS
 gem 'bulma-rails', '~> 0.9.4'
 #Forms made easy!
@@ -67,6 +67,7 @@ group :development do
   #Guard::LiveReload automatically reloads your browser when 'view' files are modified.
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
+  gem 'better_errors', '~> 2.9', '>= 2.9.1'
   # gem "rack-mini-profiler"
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
